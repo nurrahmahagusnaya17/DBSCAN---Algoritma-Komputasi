@@ -1,10 +1,3 @@
-"""Tugas Analisis Algoritma Komputasi: DBSCAN dari nol pada data pelanggan.
-
-Referensi: Ester, Kriegel, Sander, Xu (1996). A Density-Based Algorithm for
-Discovering Clusters in Large Spatial Databases with Noise. KDD-96.
-Implementasi inti ditulis sendiri; scikit-learn HANYA dipakai sebagai
-pembanding dan alat evaluasi (ARI), bukan sebagai inti algoritma.
-"""
 import csv
 import time
 from pathlib import Path
