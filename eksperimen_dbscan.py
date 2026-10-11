@@ -48,11 +48,7 @@ def tetangga_epsilon(X, indeks, epsilon):
 
 
 def dbscan_dari_nol(X, epsilon, min_pts):
-    """DBSCAN orisinal dengan pencarian tetangga brute-force.
-
-    Label -1 = noise, label 0,1,... = klaster. MinPts menghitung titik itu
-    sendiri. Titik noise dapat berubah menjadi border point.
-    """
+    """DBSCAN orisinal dengan pencarian tetangga brute-force."""
     X = np.asarray(X, dtype=float)
     if X.ndim != 2 or len(X) == 0:
         raise ValueError('X harus matriks dua dimensi dan tidak kosong')
